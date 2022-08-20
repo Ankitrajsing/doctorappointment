@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-image: url(images/background_image.png);
+    background-size: 100% 100%;
+    padding: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+}
+.head h2{
+    font-size: 60px;
+}
+.navbar{
+    background-color: #12a6cf;
+}
+.navbar a{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-image: url(images/footer_image.png);
+    background-size: 100% 100%;
+    padding: 50px;
+}
+footer span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Rajdhani', sans-serif;
+}
+.fa{
+    font-size: 25px;
+}
+.appointment-section{
+    border: 1px solid black;
+    box-shadow: 2px 8px 10px 4px rgba(0, 0, 0, 0.463);
+    border-radius: 10px;
+}
+.book{
+    word-spacing: 10px;
+    font-size: 18px;
+}
+.col-md-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-9{
+  border-radius: 10px;
+}
